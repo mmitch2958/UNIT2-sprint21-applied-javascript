@@ -53,7 +53,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: `git push origin <firstName-lastName>`
-
+np
 #### Launching the App
 
 - [ ] Navigate to the root of the project with your command line
