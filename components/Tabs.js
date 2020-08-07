@@ -27,9 +27,9 @@ const topicURL = 'https://lambda-times-api.herokuapp.com/topics'
 axios.get(topicURL)
     .then((value) => {
         
-        let topics = value.data.topics
+        let topicData = value.data.topics
         
-        topics.forEach((topic) => {
+        topicData.forEach((topic) => {
 
             const createdTab = tabMaker(topic)
             topDiv.appendChild(createdTab)

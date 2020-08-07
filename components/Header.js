@@ -18,7 +18,8 @@ function Header() {
     
     const date = document.createElement('span')
     date.classList.add('date')
-    date.textContent = 'MARCH 28, 2020'
+    let dateGet = Date()
+    date.textContent = dateGet
     
     const heading = document.createElement('h1')
     heading.textContent = 'Lambda Times'
